@@ -1,0 +1,73 @@
+/* Write your code here. */
+
+.win-or-lose-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ffffff33;
+    margin: auto;
+    padding: 18px;
+    width: 86%;
+    border: 3px solid #ffffff30;
+    border-radius: 18px;
+}
+
+.game-details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    order: 1;
+}
+
+.game-status {
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.current-score-label {
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    margin: 0px;
+}
+
+.current-score-value {
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: bold;
+    color: #6a59ff;
+    text-align: center;
+    margin: 0px;
+}
+
+.play-again-button {
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: bold;
+    color: #3d3d3d;
+    background-color: #ffce27;
+    border: none;
+    border-radius: 23px;
+    margin: 18px;
+    padding: 18px;
+    padding-left: 25px;
+    padding-right: 25px;
+    cursor: pointer;
+    outline: none;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    order: 0;
+}
+
+.win-or-lose-image{
+    height: 210px;
+    width: 160px;
+}
